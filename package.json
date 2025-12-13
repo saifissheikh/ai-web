@@ -4,12 +4,14 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun run index.ts"
+    "dev": "bun run index.ts",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/express": "^5.0.6",
     "concurrently": "^9.2.1",
+    "prettier": "^3.7.4",
     "server": "workspace:*"
   },
   "peerDependencies": {
