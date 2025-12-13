@@ -1,0 +1,20 @@
+{
+  "name": "ai-web",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.6",
+    "server": "workspace:*"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "workspaces": [
+    "./packages/server"
+  ],
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
