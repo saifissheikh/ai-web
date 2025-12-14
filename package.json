@@ -24,6 +24,7 @@
     "./packages/server"
   ],
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "react-icons": "^5.5.0"
   }
 }
