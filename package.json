@@ -21,7 +21,8 @@
     "typescript": "^5"
   },
   "workspaces": [
-    "./packages/server"
+    "./packages/server",
+    "./packages/client"
   ],
   "dependencies": {
     "dotenv": "^17.2.3",

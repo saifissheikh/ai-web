@@ -9,12 +9,14 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "prisma": "^7.1.0"
+    "prisma": "6.13.0"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
+    "@prisma/client": "6.13.0",
+    "dayjs": "^1.11.19",
     "express": "^5.2.1",
     "openai": "^6.10.0",
     "zod": "^4.1.13"
