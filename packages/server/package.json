@@ -15,6 +15,7 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@huggingface/inference": "^4.13.5",
     "@prisma/client": "6.13.0",
     "dayjs": "^1.11.19",
     "express": "^5.2.1",
